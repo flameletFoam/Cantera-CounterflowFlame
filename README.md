@@ -18,7 +18,7 @@ This version works with Cantera 2.0.0.
 
   `mkdir ~/cantera/Cantera-CounterflowFlame/`
 
-* Download flameletFoam using git:
+* Download Cantera-CounterflowFlame using git:
 
   `git clone https://github.com/flameletFoam/Cantera-CounterflowFlame/ ~/cantera/Cantera-CounterflowFlame/`
 
