@@ -1,0 +1,15 @@
+1.013e5                                       // operating pressure in Pa
+294                                           // Temperature at the left boundary in K
+294                                           // Temperature at the right boundary in K
+294                                           // Temperature for equilibrium solution calculation
+0.02                                          // mass flow in kg/(s m^2)
+0.351                                         // Stoichiometric Mixture fraction Zst
+CH4:0.25,O2:0.1575,N2:0.59249,AR:0.00001      // Species at the left side (in mole fractions)
+O2:0.21,N2:0.79                               // Species at the right side (in mole fractions)
+mechanisms/gri30.xml                          // Location of the chemical mechanism
+0.2                                           // domain lenght [m]
+50                                            // Initial number of grid point
+100                                           // Maximum number of grid points (applies only for grid refinement)
+1                                             // Refine grid? (1 = true ,  0 = false)
+
+// NOTE: A small fraction of Ar at the fuel side is necessary to calculate the mixture fraction
