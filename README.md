@@ -8,7 +8,7 @@ The program uses the Cantera chemistry libraries to solve the chemical kinetics 
 The output of the solver is a flamelet table that can be read by the OpenFOAM utility canteraToFoam and then used by the CFD solver flameletFoam
 
 More information is available on the Extend-bazaar page:
-https://openfoamwiki.net/index.php/Extend-bazaar/Toolkits/flameletFoam
+https://openfoamwiki.net/index.php/Extend-bazaar/solvers/combustion/flameletFoam
 
 ## Installation
 
@@ -50,6 +50,6 @@ These can be read by the OpenFOAM utility `canteraToFoam`.
 ## Notes
 
 More information on using the counterflow flame solver is available on:
-https://openfoamwiki.net/index.php/Extend-bazaar/Toolkits/flameletFoam
+https://openfoamwiki.net/index.php/Extend-bazaar/solvers/combustion/flameletFoam
 
 Please feel free to contact me should you find bugs or have suggestions how to make the code better.
