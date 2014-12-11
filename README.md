@@ -14,6 +14,15 @@ https://openfoamwiki.net/index.php/Extend-bazaar/Toolkits/flameletFoam
 
 This version works with Cantera 2.0.0.
 
+* Prepare a directory on your system, e.g.:
+
+  `mkdir ~/cantera/Cantera-CounterflowFlame/`
+
+* Download flameletFoam using git:
+
+  `git clone https://github.com/flameletFoam/Cantera-CounterflowFlame/ ~/cantera/Cantera-CounterflowFlame/`
+
+
 * Set the correct path to your Cantera installation in ./src/Makefile, e.g replace the line 
 
   `($YOUR_CANTERA_INSTALLATION_FOLDER$)/build/platform/Cantera.mak`
